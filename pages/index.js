@@ -67,7 +67,7 @@ export async function getStaticProps() {
                 description: meetup.description,
             })),
         },
-        revalidate: 10, //regenerate a new page if a new request is commming every xx sec.
+        revalidate: 1, //regenerate a new page if a new request is commming every xx sec.
     };
 }
 
